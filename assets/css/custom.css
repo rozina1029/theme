@@ -1,0 +1,138 @@
+#site-navigation {
+  background-color:#0c0032;
+  }
+#colophon{
+
+background-color:#0c0032;
+
+
+text-align: center;
+
+
+}
+
+  #site-navigation {
+
+    padding-top: 60px;
+
+  }
+
+.widget ul{
+  background-origin: padding-box;
+
+
+}
+.widget ul li a {
+
+  font-family:'Courier New', Courier, monospace;
+  color:black;
+
+}
+
+
+
+.widget ul li a:visited{ color:#0c0032;}
+.widget ul li a:active{ color: #0c0032;}
+
+.widget ul li a:hover{
+  border-radius: 10%;
+ 
+  font-size: 18px;
+}
+.widget .widget-title{
+ 
+  background-color: #0c0032;
+  color: white;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+   
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
+}
+
+.footer-widget-title{
+  text-decoration: underline;
+}
+.footer-widget ul li a {color:#ff6567;}
+.footer-widget ul li a:visited{ color:#ff6567 ;}
+.footer-widget ul li a:active{ color: #ff6567;}
+.footer-widget ul li a:hover{ color:  #01b1e6 ; text-decoration: underline;}
+.footer-widget ul li a{
+  font-family:'Courier New', Courier, monospace;
+
+}
+.footer-widget ul li {
+  list-style-type: none; 
+  text-align: center;
+  
+
+}
+
+.s{
+  float: right;
+}
+
+.cards{
+  border: solid;
+  border-width: 1px;
+  border-radius:10px;
+  padding: 15px;
+  color: rgba(27, 30, 49, 0.933);
+  box-shadow: #888 3px 2px;
+}
+.footer-widget-title{
+text-align: center;
+color:#01b1e6;
+}
+#p{
+color: #65ccb8;
+}
+.cardb{
+  border: solid;
+  border-width: 1px;
+  padding: 15px;
+  color: #5d5c61;
+  box-shadow: black;
+}
+.entry-title{
+
+  color:#0c0032;
+  text-decoration: underline;
+}
+.entry-title :visited{color:#0c0032; }
+.entry-title :active{color:#0c0032; }
+
+.footer-widget #wp-calendar{
+  
+  color:#ff6567; 
+}
+
+.main-navigation ul ul {
+  background: #2196F3;
+ 
+}
+#site-navigation ul li a {
+
+  color: aliceblue;
+}
+#site-navigation ul li a:hover{color:  #01b1e6;}
+
+#site-navigation ul li div{
+  background-color:#0c0032;
+}
+
+#site-navigation ul li div a:hover{
+  background-color: #0c0032;
+}
+
